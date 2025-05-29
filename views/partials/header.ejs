@@ -1,0 +1,24 @@
+<header class="site-header">
+    <div class="logo">
+        <a href="/Users/srinadhreddy/Documents/E- commerce/views/index.ejs">E-Store</a> <!-- Link to home page -->
+    </div>
+    <nav class="navigation">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/cart">Cart</a></li>
+            <li>
+                <div class="dropdown">
+                    <button class="profile-btn">Profile</button>
+                    <div class="dropdown-content">
+                        <a href="/profile">Profile</a>
+                        <a href="/cart">Cart</a>
+                        <a href="/logout">Logout</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <div class="search-bar">
+        <input type="text" id="search" placeholder="Search products..." oninput="filterProducts()">
+    </div>
+</header>
